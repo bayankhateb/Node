@@ -1,0 +1,49 @@
+
+body {
+    background-color: #f9eef2; /* רקע ורוד בהיר בדומה לתמונה */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #e0e9f0; /* רקע תכלת לכרטיסייה */
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h1 {
+    color: #1a5276;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 140px;
+    height: auto;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+    color: #1a5276;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.card p {
+    color: #555;
+    font-size: 0.85rem;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+
+.card footer {
+    color: #1a5276;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
